@@ -49,8 +49,7 @@ Uses the IndexedDB API to store significant amounts of structured data, includin
 
 - These are the (2) items required for submission
   1.  The URL of the heroku deployment
-       https://
-
+       https://git.heroku.com/safe-hamlet-39377.git
       
   2.  The URL of the GitHub repository that contains your code
       https://github.com/phagn131/cool-text-editor-2
