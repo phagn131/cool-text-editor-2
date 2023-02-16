@@ -6,7 +6,7 @@ As a developer, my goal is to generate notes or code snippets that can be access
 
 ## Project Objective
 
-As I progress through the course, I have developed impressive projects to showcase to potential employers, and the current text editor project stands out as it utilizes the latest concepts I've learned. My goal is to create a single-page text editor that runs on the browser, meets PWA criteria, and supports various data persistence techniques to ensure redundancy in case of browser limitations. To achieve this, I will start with an existing application and use the idb package to implement storing and retrieving data on an IndexedDB database.
+As I progress through the course, I have developed projects to showcase to potential employers, and the current text editor project stands out as it utilizes the latest concepts I've learned. My goal is to create a single-page text editor that runs on the browser, meets PWA criteria, and supports various data persistence techniques to ensure redundancy in case of browser limitations. To achieve this, I will start with an existing application and use the idb package to implement storing and retrieving data on an IndexedDB database.
 
 ## Acceptance Criteria
 
