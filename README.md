@@ -33,7 +33,13 @@ The following image shows the application's IndexedDB storage:
 
 ### Technical Tools
 
-In addition to meeting the above acceptance criteria, the application should use IndexedDB to create an object store and include both GET and PUT methods. The application should also function without an internet connection and automatically save content inside the text editor when the DOM window is unfocused. It should be bundled with webpack and create a service worker with workbox to cache static assets. Babel should be used to implement async/await functionality. The application must have a generated manifest.json using the WebpackPwaManifest plug-in and should be installable as a Progressive Web Application.
+In addition to meeting the above acceptance criteria, the application uses IndexedDB to create an object store and include both GET and PUT methods. The application should also function without an internet connection and automatically save content inside the text editor when the DOM window is unfocused. It is bundled with webpack and create a service worker with workbox to cache static assets. Babel should be used to implement async/await functionality. The application has a generated manifest.json using the WebpackPwaManifest plug-in and is installable as a Progressive Web Application.
+
+Uses the Expressjs package (https://expressjs.com/)
+
+Deploys to heroku(https://heroku.com)
+
+Uses the IndexedDB API to store significant amounts of structured data, including files and blobs, IndexedDB is the low-level API you should use. It uses indexes for high-performance searches. Here is one source for documentation(https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
 
 ## License
 
